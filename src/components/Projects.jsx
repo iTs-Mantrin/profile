@@ -7,24 +7,24 @@ export default function Projects() {
             description:"Portfolio is a successful Open-Source project that I created which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally",
             visitNow:"./",
             caseStudty:"https://github.com/iTs-Mantrin/myportfolio",
-            image:"/images/project-img/portfolio.png"      
+            image:"images/project-img/portfolio.png"      
         },
         {
             name:"Smart School",
             description:"Designing a Smart School Project involves creating a comprehensive plan to integrate technology into various aspects of education. This may include implementing smart classrooms, interactive learning platforms, automated administrative systems, and leveraging data analytics for personalized student progress tracking. The project aims to enhance overall efficiency, engagement, and learning outcomes within the educational institution.",
             visitNow:"https://smart-school-education.netlify.app/",
             caseStudty:"https://github.com/iTs-Mantrin/smart-school",
-            image:"/images/project-img/Smart School.png"      
+            image:"images/project-img/Smart School.png"      
         },
         {
             name:"Boreal Coffee Clone",
             description:"I re-created the frontend of Boreal Coffee's official web app because I got attracted to their beautiful UI. It was a great experience for me to build the entire frontend. ",
-            image:"/images/project-img/boreal-coffee-clone.jpeg"      
+            image:"images/project-img/boreal-coffee-clone.jpeg"      
         },
         {
             name:"Crown Template",
             description:"Crown is a web template that I created targeting the restaurant and food industry which anyone can use to present their business online.",
-            image:"/images/project-img/crown-template.jpeg"      
+            image:"images/project-img/crown-template.jpeg"      
         },
     ]
   return (
