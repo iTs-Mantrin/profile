@@ -35,7 +35,7 @@ export default function Footer() {
             <div className='flex py-[4rem] max-sm:flex-col'>
               <div className='order-2 max-sm:order-1 ml-auto max-sm:m-0'>
                 <h2 className='text-[18px] uppercase font-bold pb-[1.5rem] max-sm:pb-5 tracking-[1px]'>Social</h2>
-                  <div className='flex gap-4 max-sm:gap-9 text-[20px] max-sm:pb-10'>
+                  <div className='flex gap-4 max-sm:gap-9 text-[20px] max-sm:text-[25px] max-sm:pb-10'>
                     {
                       social.map(
                         (link,index) => {
