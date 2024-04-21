@@ -6,7 +6,7 @@ export default function Projects() {
             name:"Portfolio",
             description:"Portfolio is a successful Open-Source project that I created which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally",
             visitNow:"./",
-            caseStudty:"https://github.com/iTs-Mantrin/myportfolio",
+            caseStudty:"https://github.com/iTs-Mantrin/profile",
             image:"images/project-img/portfolio.png"      
         },
         {
@@ -29,20 +29,10 @@ export default function Projects() {
             visitNow:"https://express-catering.netlify.app",
             caseStudty:"https://github.com/iTs-Mantrin/Restaurant",
             image:"images/project-img/express-cattering.png",     
-        },
-        {
-            name:"Boreal Coffee Clone",
-            description:"I re-created the frontend of Boreal Coffee's official web app because I got attracted to their beautiful UI. It was a great experience for me to build the entire frontend. ",
-            image:"images/project-img/boreal-coffee-clone.jpeg"      
-        },
-        {
-            name:"Crown Template",
-            description:"Crown is a web template that I created targeting the restaurant and food industry which anyone can use to present their business online.",
-            image:"images/project-img/crown-template.jpeg"      
-        },
+        }
     ]
   return (
-    <section id="projects" className=' py-[6rem] max-sm:py-5'>
+    <section id="projects" className=' py-[6rem]'>
         <div className='max-w-[120rem] w-[92%] m-auto'>
             <div className='text-center mb-[4rem]'>
                 <h2 className='text-[35px] uppercase font-bold tracking-[1px] pb-[4rem] max-sm:text-[30px] max-sm:pb-3'>Projects</h2>
