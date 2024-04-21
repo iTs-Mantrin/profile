@@ -17,6 +17,20 @@ export default function Projects() {
             image:"images/project-img/Smart School.png"      
         },
         {
+            name:"Glassberry",
+            description:"Glassberry is a digital marketing agency that specializes in sales, business growth, and business consulting services. Digital marketing agencies play a crucial role in today's business landscape by helping companies reach their target audiences, increase brand awareness, and drive sales through various online channels such as social media, search engines, and email marketing.",
+            visitNow:"https://glassberry.netlify.app/",
+            caseStudty:"https://github.com/iTs-Mantrin/Glassberry",
+            image:"images/project-img/express-cattering.png",    
+        },
+        {
+            name:"Express Cattering",
+            description:"Express Catering, a service that likely offers quick and efficient catering solutions for events or gatherings. Express catering typically focuses on providing delicious food options with fast turnaround times, making it suitable for corporate events, meetings, parties, and other occasions where timely service is crucial",
+            visitNow:"https://express-catering.netlify.app",
+            caseStudty:"https://github.com/iTs-Mantrin/Restaurant",
+            image:"images/project-img/express-cattering.png",     
+        },
+        {
             name:"Boreal Coffee Clone",
             description:"I re-created the frontend of Boreal Coffee's official web app because I got attracted to their beautiful UI. It was a great experience for me to build the entire frontend. ",
             image:"images/project-img/boreal-coffee-clone.jpeg"      
