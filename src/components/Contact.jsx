@@ -25,7 +25,7 @@ export default function Contact() {
 
     
   return (
-    <section id='contact' className='bg-[#fafafa] py-[6rem] max-sm:py-10'>
+    <section id='contact' className='bg-[#fafafa] py-[6rem]'>
         <div className='max-w-[120rem] w-[92%] m-auto'>
             <div className='text-center mb-[4rem] max-sm:mb-5'>
                 <h2 className='text-[35px] uppercase font-bold tracking-[1px] pb-[4rem] max-sm:text-[30px] max-sm:pb-3'>Contact</h2>
