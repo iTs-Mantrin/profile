@@ -39,7 +39,7 @@ export default function Projects() {
                     projects.map(
                         (project,index) => {
                             return(
-                                <div key={index} className='flex max-w-[100rem] gap-10 py-[4rem] max-sm:flex-col'>
+                                <div key={index} className='flex max-sm:flex-col max-w-[100rem] gap-10 py-[4rem] max-sm:py-5'>
                                     <div className='w-[50%] px-[10px] max-sm:w-full'>
                                         <img src={project.image} alt={project.name} />
                                     </div>
