@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 
 export default function Projects() {
     const projects = [
@@ -46,7 +46,7 @@ export default function Projects() {
                                     <div className='w-[50%] px-[10px] max-sm:w-full'>
                                         <h3 className='text-[25px] font-bold tracking-[1px] py-[1rem]  max-sm:text-[20px]'>{project.name}</h3>
                                         <p className='text-[18px] text-[#555555] max-sm:text-[14px]'>{project.description}</p>
-                                        <div className='flex py-[40px] space-x-10 items-center'>
+                                        <div className='flex py-[40px] space-x-10 space-x-1 items-center'>
                                             <a href={project.visitNow} target='_blank' rel='noopener noreferrer' className='text-[15px] max-sm:text-[10px] text-[#fff] bg-[#7843e9] uppercase font-bold py-[15px] px-[60px] max-sm:px-8 max-sm:py-3 rounded tracking-[1px] shadow-[0_5px_15px_0_rgba(0, 0, 0, .15)] hover:translate-y-[-3px] duration-300'>Visit Now</a>
                                             <a href={project.caseStudty} target='_blank' rel='noopener noreferrer'  className='text-[15px] max-sm:text-[10px] text-[#fff] bg-[#7843e9] uppercase font-bold py-[15px] px-[60px] max-sm:px-8 max-sm:py-3 rounded tracking-[1px] shadow-[0_5px_15px_0_rgba(0, 0, 0, .15)] hover:translate-y-[-3px] duration-300'>Case Study</a>
                                         </div>
