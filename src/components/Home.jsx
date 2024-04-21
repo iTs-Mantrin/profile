@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <section id='home' className='w-[100%] relative'>
         <div className='px-[150px] pt-[180px] max-sm:px-[0px]'>
-            <h1 className='text-[#111111] text-[50px] uppercase font-black tracking-[3px] text-center max-sm:text-[40px] max-sm:px-[10px]'>Hey, I'm Manish Kumar</h1>
+            <h1 className='text-[#111111] text-[50px] uppercase font-black tracking-[3px] text-center max-sm:text-[35px] max-sm:px-[15px]'>Hey, I'm Manish Kumar</h1>
             <div className='px-[50px] pt-[30px] max-sm:px-[10px]'>
                 <p className='w-[100%] leading-[1.6] text-[#333333] text-[20px] font-medium text-center max-sm:text-[17px]'>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
             </div>
