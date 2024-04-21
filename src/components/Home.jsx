@@ -32,10 +32,10 @@ export default function Home() {
       ]
   return (
     <section id='home' className='w-[100%] relative'>
-        <div className='px-[150px] pt-[180px]'>
-            <h1 className='text-[#111111] text-[50px] uppercase font-extrabold tracking-[3px] text-center'>Hey, I'm Manish Kumar</h1>
-            <div className='px-[50px] pt-[30px]'>
-                <p className='w-[100%] leading-[1.6] text-[#333333] text-[20px] font-medium text-center'>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+        <div className='px-[150px] pt-[180px] max-sm:px-[0px] max-sm:pt-25'>
+            <h1 className='text-[#111111] text-[50px] uppercase font-extrabold tracking-[3px] text-center max-sm:text-[35px] max-sm:px-[5px]'>Hey, I'm Manish Kumar</h1>
+            <div className='px-[50px] pt-[30px] max-sm:px-[10px]'>
+                <p className='w-[100%] leading-[1.6] text-[#333333] text-[20px] font-medium text-center max-sm:text-[17px]'>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
             </div>
             <div className='text-center mt-[50px] hover:translate-y-[-3px] duration-300'>
                 <a className='text-[20px] text-[#fff] bg-[#7843e9] uppercase font-bold py-[15px] px-[60px] rounded tracking-[1px] shadow-[0_5px_15px_0_rgba(0, 0, 0, .15)]' href="./#projects">Projects</a>
@@ -44,7 +44,7 @@ export default function Home() {
                 <img className='w-[20%] m-auto' src="/images/mousewheel.gif" alt="Mouse wheel" />
             </div>
         </div>
-        <div className='absolute top-[30%] bg-white shadow-[0_7px_29px_0_rgba(100,100,111,.2)] p-[5px]'>
+        <div className='absolute top-[30%] bg-white shadow-[0_7px_29px_0_rgba(100,100,111,.2)] p-[5px] max-sm:hidden'>
              {
                 social.map(
                     (link, index) => {
