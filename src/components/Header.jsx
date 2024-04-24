@@ -1,5 +1,4 @@
 import React from 'react';
-import { IoMdMenu, IoMdClose } from "react-icons/io";
 
 
 export default function Header() {
