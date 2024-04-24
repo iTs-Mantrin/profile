@@ -74,8 +74,8 @@ export default function Header() {
                     </ul>
                 </div>
                 <div className='items-center ml-auto invisible max-sm:visible'>
-                    <a href='./' id="menu" onClick={menu} alt="Menu" >{IoMdMenu}</a>
-                    <a href='./' id="close"  onClick={close} className='hidden' alt="Close">{IoMdClose}</a>
+                    <img id="menu" src={IoMdMenu} onClick={menu} alt="Menu" />
+                    <img id="close" src={IoMdClose} onClick={close} className='hidden' alt="Close" />
                 </div>
             </div>
             <div id='menubar' className='bg-white w-full shadow-b-[0_10px_100px_rgba(0,0,0,0.1)] absolute hidden'>
