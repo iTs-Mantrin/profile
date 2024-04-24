@@ -78,7 +78,7 @@ export default function Header() {
                     <img id="close" src="images/close.png" onClick={close} className='hidden' alt="Close" />
                 </div>
             </div>
-            <div id='menubar' className='bg-white w-full shadow-[0_100px_100px_rgba(0,0,0,0.1)] absolute hidden'>
+            <div id='menubar' className='bg-white w-full shadow-[0_50px_100px_rgba(0,0,0,0.1)] absolute hidden'>
                 <div>
                     <ul className='border-t-[1px] border-solid border-[#eee]'>
                         {
