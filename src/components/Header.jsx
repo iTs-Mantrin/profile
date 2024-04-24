@@ -72,7 +72,7 @@ export default function Header() {
                         }
                     </ul>
                 </div>
-                <div className='items-center ml-auto invisible max-sm:visible'>
+                <div className='flex items-center ml-auto invisible max-sm:visible'>
                     <img className='h-5' id="menu" src="images/menu.png" onClick={menu} alt="Menu" />
                      <img className='h-5 hidden' id="close" src="images/close.png" onClick={close} alt="Close" />
                 </div>
