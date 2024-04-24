@@ -48,7 +48,7 @@ export default function Header() {
 
     return (
         <header className='fixed z-[999] w-full bg-white shadow-[0_10px_100px_rgba(0,0,0,0.1)]'>
-            <div className='flex px-[5rem] max-sm:px-5 py-[1.5rem] p-3 text-[#333333] text-[14px]'>
+            <div className='flex justify-between px-[5rem] max-sm:px-5 py-[1.5rem] p-3 text-[#333333] text-[14px]'>
                 <div className='flex items-center gap-3 cursor-pointer hover:text-[#983eee] duration-300'>
                     <div className='w-[50px]'>
                         <a href="/">
@@ -72,7 +72,7 @@ export default function Header() {
                         }
                     </ul>
                 </div>
-                <div className='flex items-center ml-auto invisible max-sm:visible'>
+                <div className='flex items-center invisible max-sm:visible'>
                     <img className='h-5' id="menu" src="images/menu.png" onClick={menu} alt="Menu" />
                      <img className='h-5 hidden' id="close" src="images/close.png" onClick={close} alt="Close" />
                 </div>
